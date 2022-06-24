@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline:none;
+}
+
+body {
+	color: orange;
+	background-color: #E6E6FA;
+}
+
+#pageOne {
+	/* border: 1px solid purple; */
+}
+
+#navDirect {
+	border: 1px solid black;
+}
+
+#navbar {
+	border: 2px solid black;
+	justify-content: center;
+	background-color: blue;
+}
+
+#navOptions {
+	list-style: none;
+}
+
+.list {
+	display: inline-block;
+	border: 1px solid blue;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#reload {
+
+}
+
+#guitar {
+	width: 50%;
+	border: 3px dotted black;
+}
