@@ -8,16 +8,12 @@
 }
 
 body {
-	color: orange;
+	color: black;
 	background-color: #E6E6FA;
 }
 
 #pageOne {
 	/* border: 1px solid purple; */
-}
-
-#navDirect {
-	border: 1px solid black;
 }
 
 #navbar {
@@ -26,14 +22,21 @@ body {
 	background-color: blue;
 }
 
+#navDirect {
+	/* border: 1px solid black; */
+}
+
 #navOptions {
 	list-style: none;
 }
 
 .list {
 	display: inline-block;
-	border: 1px solid blue;
+	border: 1px solid black;
 	margin: auto;
+	width: 10%;
+	text-align: center;
+	font-size: 30px;
 }
 
 a {
@@ -41,11 +44,26 @@ a {
 	color: white;
 }
 
-#reload {
-
-}
-
 #guitar {
 	width: 50%;
 	border: 3px dotted black;
+}
+
+#bird {
+	border: 2px solid yellow;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+}
+
+#mainBody {
+	display: flex;
+	justify-content: center;
+	margin-top: 115px;
+}
+
+#card1 {
+	border: 1px solid black;
 }
