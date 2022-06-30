@@ -14,6 +14,7 @@ body {
 
 #pageOne {
 	/* border: 1px solid purple; */
+	background-color: orange;
 }
 
 #navbar {
@@ -36,7 +37,7 @@ body {
 	margin: auto;
 	width: 10%;
 	text-align: center;
-	font-size: 30px;
+	/* font-size: 30px; */
 }
 
 a {
@@ -55,16 +56,42 @@ a {
 }
 
 .cards {
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
+	text-align: center;
 }
 
 #mainBody {
 	display: flex;
-	justify-content: center;
-	margin-top: 115px;
+	/* justify-content: left; */
+	margin-top: 85px;
+	border: 5px dashed black;
 }
 
 #card1 {
 	border: 1px solid black;
+	text-align: center;
+	margin-right: 15%;
+}
+
+#card2 {
+	border: 1px dotted blue;
+}
+
+#card3 {
+	margin: 75px 0;
+	border: 4px dashed red;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+#gallery {
+	border: 2px solid blue;
+	margin-bottom: 250px;
+}
+
+#sideScroll {
+	display: inline-block;
+	height: 200px;
 }
