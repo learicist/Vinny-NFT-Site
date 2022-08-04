@@ -8,19 +8,19 @@
 }
 
 body {
-	color: black;
-	background-color: #E6E6FA;
+	color: #f3f3f3;
+	background-color: #f3f3f3;
 }
 
 #pageOne {
 	/* border: 1px solid purple; */
-	background-color: orange;
+	background-color: #27222e;
 }
 
 #navbar {
 	border: 2px solid black;
 	justify-content: center;
-	background-color: blue;
+	background-color: #f3f3f3;
 }
 
 #navDirect {
@@ -28,7 +28,8 @@ body {
 }
 
 #navOptions {
-	list-style: none;
+	display: flex;
+	justify-content: center;
 }
 
 .list {
@@ -42,17 +43,17 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #27222e;
 	/*FIX HOVER COLOR CHANGE*/
 }
 
 #guitar {
 	width: 50%;
-	border: 3px dotted black;
+	/* border: 3px dotted black; */
 }
 
 #bird {
-	border: 2px solid yellow;
+	/* border: 2px solid yellow; */
 }
 
 .cards {
@@ -104,6 +105,7 @@ a {
 	display: inline-block;
 	border: 2px solid black;
 	margin-bottom: 15px;
+	background-color: #27222e;
 }
 
 .footLinks {
