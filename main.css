@@ -7,6 +7,147 @@
   outline:none;
 }
 
+#navMain {
+    background-color: rgb(255, 165, 0, 0.75);
+    align-items: center;
+	/* border: 1px solid black; */
+}
+
+#navContainer {
+    display: flex;
+    justify-content: center;
+	/* border: 1px solid black; */
+}
+
+#navRow {
+    /* display: flex;
+	border: 1px solid black;
+    justify-content: center; */
+    text-align: center;  
+	
+}
+
+.navbar-brand {
+    /* create media query for size */
+}
+
+#titleLogo {
+    background-color: #27222e;
+    /* color: green;
+    background-color: rgb(235,164,3);
+    border: 1px solid blue; 
+    margin-left: 5px; */
+    border-radius: 15px;
+    margin: 6px 0 10px 0;
+    text-decoration: none;
+    width: 10%;
+	padding: 1%;
+    box-shadow: 4px 5px rgb(0, 0, 0, 0.2);
+}
+
+#navbarNavAltMarkup {
+	display: flex;
+	justify-content: center;
+}
+
+#hamButton {
+    border-color: rgb(216,181,154);
+    border-width: 0.15em;
+    color: rgb(17,71,61);
+}
+
+#spanIcon {
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(216,181,154)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#hamburgerList {
+    
+    border-radius: 15px;
+    padding: 5px; 
+    /* margin-right: 30px;
+	border: 1px solid white;
+    float: right; */
+}
+
+.links {
+    background-color: #27222e;
+    color: orange;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 5px 10px;
+    font-weight: 600;
+    font-size: 1.3em;
+    font-family: "Roboto-Slab", sans-serif;
+    text-decoration: none;
+    max-width: 100px;
+    text-align: center;
+    padding: 3px 8px;
+    box-shadow: 4px 5px rgb(0, 0, 0, 0.2);
+}
+
+.links:hover {
+    text-decoration: none;
+    color: rgb(17,71,61);
+}
+
+@media screen and (max-width: 769px) {
+    #navMain {
+        /* background-color: rgb(17,71,61, 0.45); */
+        /* align-items: stretch;
+        border: 1px solid white; */
+    }
+
+    #navContainer {
+        display: block;
+        justify-content: flex-start;
+        
+    }
+
+    #navRow {
+        text-align: left;
+        
+    }
+
+    #titleLogo {
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+
+    #hamButton {
+        justify-content: right;
+        float: right;
+        margin-top: 25px;
+    }
+
+    #hamburgerList {
+        margin-right: 10px;
+        background-color: rgb(17,71,61);
+        border: 1px solid rgb(17,71,61);
+        border-radius: 15px;
+        padding: 5px;
+        float: right;
+    }
+
+    .links {
+        
+    }
+
+    #topRow {
+        padding-top: 120px;
+    }
+}
+
+/* .navbar {
+    background-color: rgb(17,71,61);
+    margin-bottom: 150px;
+    position: fixed;
+    top: 0;
+} */
+
+/* BODY BEGINS */
+
+
 body {
 	color: #f3f3f3;
 	background-color: #f3f3f3;
@@ -15,41 +156,36 @@ body {
 #pageOne {
 	/* border: 1px solid purple; */
 	background-color: #27222e;
+	margin-top: 200px;
 }
 
-#navbar {
+/* #navbar {
 	border: 2px solid black;
 	justify-content: center;
 	background-color: #f3f3f3;
-}
+} */
 
 #navDirect {
 	/* border: 1px solid black; */
 }
 
-#navOptions {
+/* #navOptions {
 	display: flex;
 	justify-content: center;
-}
+} */
 
 .list {
-	display: inline-block;
+	/* display: inline-block;
 	border: 1px solid black;
 	margin: auto;
 	width: 10%;
 	text-align: center;
-	/* font-size: 30px; */
+	font-size: 30px; */
 }
 
 a {
 	text-decoration: none;
 	color: #27222e;
-	/*FIX HOVER COLOR CHANGE*/
-}
-
-#guitar {
-	width: 50%;
-	/* border: 3px dotted black; */
 }
 
 #bird {

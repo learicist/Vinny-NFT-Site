@@ -38,36 +38,57 @@
 	</header>
 
 	<body>
-
-		<div class="container-fluid page" id="pageOne">
-			<!--Use below code if needed as guide for navbar, from portfolio site-->
-			<!-- <nav class="navbar navbar-inverse navbar-fixed-top">
-				<div id="nav" class="container">
-					<div class="navbar-header">
-						<button id="menu" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#hamburger" aria-expanded="false" aria-controls="navbar">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#top">
-							<img
-							id="guitar"
-							src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="guitar"
-							/>
+		<nav class="navbar navbar-expand-md fixed-top" id="navMain">
+			<div class="container-fluid" id="navContainer">
+				<div class="row" id="navRow">
+					<div class="col-sm-12">
+						<a class="navbar-brand" href="#">
+							<img 
+								id="titleLogo"
+								alt="brandLogo"
+								src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png"/>
 						</a>
-					</div>
-					<div id="hamburger" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
-							<li class="dropdown"><a href="#Contact"><span>Contact</span></a></li>
-							<li class="dropdown"><a href="#Portfolio"><span>Portfolio</span></a></li>
-							<li class="dropdown"><a href="#About"><span>About</span></a></li>
-						</ul>
+						<button 
+							class="navbar-toggler" 
+							id="hamButton"
+							type="button" 
+							data-bs-toggle="collapse" 
+							data-bs-target="#navbarNavAltMarkup" 
+							aria-controls="navbarNavAltMarkup" 
+							aria-expanded="false" 
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon" id="spanIcon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							<div class="navbar-nav" id="hamburgerList">
+								<a 
+									style="text-decoration: none;" 
+									class="active links" 
+									aria-current="page" 
+									href="#">
+										Home
+								</a>
+								<a 
+									style="text-decoration: none;" 
+									class="active links" 
+									href="#mission">
+										Mission
+								</a>
+								<a 
+									style="text-decoration: none;" 
+									class="active links" 
+									href="#socialDivParent">
+										Contact
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
-			</nav> -->
+			</div>
+		</nav>
 
-			<div class="row" id="navbar">
+		<div class="container-fluid page" id="pageOne">
+			<!-- <div class="row" id="navbar">
 				<div class="col-sm-12" id="navDirect">
 					<div class="listParent" id="navOptions">
 						<div class="list" id="home" style="width: 10%; margin-right: 55%;">
@@ -75,7 +96,6 @@
 								<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" id="guitar" alt="guitar"/>
 							</a>
 						</div>
-						<!--either add additional page for gallery, or toggle a .hidden class-->
 						<div class="list" id="galleryBtn">
 							<a style="font-size: 1.2em;" href="">Gallery</a>
 						</div>
@@ -99,7 +119,8 @@
 						</div>
 					</div>
 				</div>
-			</div> <!--#navbar Row-->
+			</div>  -->
+			<!--#navbar Row-->
 
 			<div class="row" id="mainBody">
 				<div class="col-sm-4 cards" id="card1">
