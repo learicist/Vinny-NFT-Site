@@ -2,6 +2,30 @@
     display: none;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 10px;
+    height: 10px;
+    scrollbar-width: 10px;
+    scrollbar-color: #27222e, #f3f3f3;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #27222e; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #f3f3f3; 
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #f3f3f3;
+}
+
 #navMain {
     background-color: rgb(255, 165, 0, 0.85);
     align-items: center;
@@ -128,7 +152,9 @@
     }
 
     .links:hover {
-
+        text-decoration: none;
+        background-color: orange;
+        color: rgb(39, 34, 46);
     }
 
     #topRow {
@@ -148,13 +174,13 @@
 
 body {
 	color: #f3f3f3;
-	background-color: #f3f3f3;
+	background-color: #27222e;
 }
 
 .page {
 	/* border: 1px solid purple;
-    margin-top: 220px; */
-	background-color: #27222e;
+    margin-top: 220px; 
+	background-color: #27222e; */
 	
 }
 
@@ -164,27 +190,26 @@ body {
 
 .cards {
 	/* display: flex;
-	justify-content: center; */
+	justify-content: center;
+    border: 1px dotted blue; */
 	text-align: center;
-	border: 1px dotted blue;
 }
 
 #mainBody {
 	display: flex;
 	justify-content: center;
 	padding-top: 255px;
-	border: 5px dashed black;
+    /* border: 1px solid white; */
 }
 
 #card1 {
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
-	border: 1px solid black;
-	  
-	/* margin-right: 15%;
-    text-align: center;
-    padding-top: 20px; */
+	/* border: 1px solid white;
+	margin-right: 15%;
+    text-align: center; */
+    padding-top: 35px;
 }
 
 #dogMain {
@@ -193,8 +218,9 @@ body {
 }
 
 .gallery {
-	border: 2px solid blue;
 	/* margin-bottom: 250px; */
+    border: 2px solid orange;
+    border-radius: 5px;
 	margin: 75px 0;
 	overflow-x: scroll;
 	overflow-y: hidden;
@@ -207,11 +233,11 @@ body {
 
 .sideScroll {
 	display: inline-block;
-	height: 250px;
+	/* height: 300px; */
 }
 
 .galleryDogs {
-	margin: 1%;
+	margin: 1% 5%;
     border: 2px solid white;
     border-radius: 5px;
 }
@@ -268,4 +294,11 @@ body {
 .footLinks {
 	border: 1px solid black;
 	text-align: center;
+    text-decoration: none;
+    color:#f3f3f3;
+}
+
+.footLinks:hover {
+    text-decoration: none;
+    color:#f3f3f3;
 }
