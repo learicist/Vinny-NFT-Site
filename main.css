@@ -7,12 +7,12 @@
 	width: 10px;
     height: 10px;
     scrollbar-width: 10px;
-    scrollbar-color: #27222e, #f3f3f3;
+    scrollbar-color: orange, #f3f3f3;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: #27222e; 
+	background: orange; 
 }
 
 /* Handle */
@@ -38,10 +38,6 @@
 	/* border: 1px solid black; */
 }
 
-.navbar-brand {
-    /* create media query for size */
-}
-
 #navRow {
     text-align: center;
 }
@@ -57,10 +53,10 @@
     border: 1px solid white;
 }
 
-#navbarNavAltMarkup {
+/* #navbarNavAltMarkup {
 	display: flex;
 	justify-content: center;
-}
+} */
 
 #hamButton {
     border-color: #27222e;
@@ -74,12 +70,69 @@
 }
 
 #hamburgerList {
-
-    border-radius: 15px;
+    /* border-radius: 15px;
     padding: 5px; 
-    /* margin-right: 30px;
+    margin-right: 30px;
 	border: 1px solid white;
     float: right; */
+}
+
+@media screen and (max-width: 769px) {
+    #navMain {
+        /* background-color: rgb(17,71,61, 0.45); */
+        /* align-items: stretch;
+        border: 1px solid white; */
+    }
+
+    #navContainer {
+        display: block;
+        justify-content: flex-start;
+    }
+
+    #navRow {
+        text-align: left;
+        
+    }
+
+    #titleLogo {
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+
+    /* #navbarNavAltMarkup {
+        display: flex;
+        justify-content: right;
+    } */
+
+    #hamButton {
+        /* justify-content: right; */
+        float: right;
+        margin-top: 25px;
+    }
+
+    #hamburgerList {
+        margin-right: 10px;
+        background-color: rgb(39, 34, 46);
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 5px;
+        float: right;
+    }
+
+    .links {
+        background-color: orange;
+        color: rgb(39, 34, 46);
+    }
+
+    .links:hover {
+        text-decoration: none;
+        background-color: orange;
+        color: rgb(39, 34, 46);
+    }
+
+    #topRow {
+        padding-top: 120px;
+    }
 }
 
 .links {
@@ -101,65 +154,6 @@
 .links:hover {
     text-decoration: none;
     color: orange;
-}
-
-@media screen and (max-width: 769px) {
-    #navMain {
-        /* background-color: rgb(17,71,61, 0.45); */
-        /* align-items: stretch;
-        border: 1px solid white; */
-    }
-
-    #navContainer {
-        display: block;
-        justify-content: flex-start;
-        
-    }
-
-    #navRow {
-        text-align: left;
-        
-    }
-
-    #titleLogo {
-        margin-bottom: 0;
-        margin-left: 5px;
-    }
-
-    #navbarNavAltMarkup {
-        display: flex;
-        justify-content: right;
-    }
-
-    #hamButton {
-        /* justify-content: right; */
-        float: right;
-        margin-top: 25px;
-    }
-
-    #hamburgerList {
-        margin-right: 10px;
-        background-color: rgb(39, 34, 46);
-        border: 1px solid white;
-        border-radius: 15px;
-        padding: 5px;
-        /* justify-content: right; */
-    }
-
-    .links {
-        background-color: orange;
-        color: rgb(39, 34, 46);
-    }
-
-    .links:hover {
-        text-decoration: none;
-        background-color: orange;
-        color: rgb(39, 34, 46);
-    }
-
-    #topRow {
-        padding-top: 120px;
-    }
 }
 
 /* .navbar {
@@ -227,8 +221,12 @@ body {
 	white-space: nowrap;
 }
 
-#scrollOne {
+#galleryOne {
     scroll-padding-top: 200px;
+}
+
+#scrollOne {
+    
 }
 
 .sideScroll {
