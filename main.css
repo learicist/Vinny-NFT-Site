@@ -48,7 +48,8 @@
 #navMain {
     background-color: rgb(255, 165, 0, 0.25);
     align-items: center;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px) contrast(100%);
+    -webkit-backdrop-filter: blur(8px) contrast(100%);
 	/* border: 1px solid black; */
 }
 
@@ -254,11 +255,6 @@ body {
 
 
 /* BUILD PAGE */
-
-/* PREVENT ON SMALLER SCREENS */
-@media screen and (max-width: 581px) {
-
-}
 
 #buildBody {
     display: flex;
